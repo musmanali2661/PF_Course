@@ -1,18 +1,14 @@
-#include <stdio.h>
+//#include <stdio.h>
 
 int main()
 {
-/////////////////////////
 
-    int val;
-    val = 98;
-    if (val%2==0){
-        printf("Even");
-    }
-    else{ 
-        printf("Odd");
-    }
+    int val = 786;
 
-///////////////////////////
+    int* ptrToInt = &val;
+
+    printf("%d\n", *ptrToInt);   
+
+
     return 0;
 }
