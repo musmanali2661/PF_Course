@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-#define MYNUM 786
-#define PI 3.14
-
 int main()
 {
-    int V = MYNUM;
+    int V = 786;
     int* ptrToInt;
     ptrToInt = &V;
     printf("%d", *ptrToInt); 
