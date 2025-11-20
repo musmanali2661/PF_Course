@@ -9,6 +9,10 @@ int main()
 
     int nArr[6] = {0};
     nArr[4] = 78;
+    nArr[4] = 78;
+    nArr[4] = 78;
+    nArr[4] = 78;
+    nArr[4] = 78;
 
     int i = 0;
 
